@@ -32,7 +32,7 @@ def turn(board)
     if valid_move?(board, input_to_index(input)) == true
       move(board, input_to_index(input))
       display_board(board)
-    elsif valid_move?(board, input_to_index(input)) == false
+    else puts "Please enter valid entry"
       turn(board)
   end
 end
