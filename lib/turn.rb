@@ -34,5 +34,5 @@ def turn(board)
       puts "I entered #{input} to the gets prompt."
       display_board
     else turn(board)
-  end=
+  end
 end
