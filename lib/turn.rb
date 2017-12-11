@@ -9,5 +9,3 @@ puts row2
 puts divider
 puts row3
 end
-
-display_board(board)
