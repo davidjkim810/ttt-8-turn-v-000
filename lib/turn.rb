@@ -10,6 +10,6 @@ def display_board(board)
   puts row3
 end
 
-def input_to_index(input)
-
+def input_to_index(user_input)
+  position = user_input.to-i - 1
 end
