@@ -8,5 +8,4 @@ puts divide
 puts row2
 puts divide
 puts row3
-
 end
