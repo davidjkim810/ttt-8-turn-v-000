@@ -31,7 +31,6 @@ def turn(board)
   input = gets.strip
    if valid_move?(board, input_to_index(input)) == true
       move(board, input.to_i)
-      display_board(board)
     else turn(board)
   end
 end
