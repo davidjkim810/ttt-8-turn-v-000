@@ -32,7 +32,7 @@ def turn(board)
    if valid_move?(board, input_to_index(input)) == true
       move(board, input.to_i)
       puts "I entered #{input} to the gets prompt."
-      display_board
+      display_board(board)
     else turn(board)
   end
 end
