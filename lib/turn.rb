@@ -31,6 +31,7 @@ def turn(board)
   input = gets.strip
   input_to_index(input)
   if input_to_index(input).between?(1,9) == true
+
   else turn(board)
   end
 end
